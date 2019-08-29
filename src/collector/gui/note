@@ -1,0 +1,16 @@
+user end
+`````````
+
+splashPanelUserEnd -> UserEndWelcome(login,register,about, forgot password{seperate frame})-> selectoptionuserEnd-> UserEndComplaintWindow-> PrintReportUserEnd (redirect to UserComplaintWindow)
+
+collector end
+`````````````
+		****only one user can be registered at a time*****
+
+splashPanelCollector - > CollectorWelcome(login,register,about, forgot password{seperate frame})-> AllMailCollectorEnd -> CollectorEndComplaintWindow
+
+
+authority end 
+`````````````
+
+splashpane -> SelectOptionUserEnd -> login/register/forgot password {all have seperate frames} -> AllMailAuthorityEnd -> AuthorityEndComplaintWindow  -> PrintReportAuthority
